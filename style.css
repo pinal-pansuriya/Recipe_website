@@ -50,6 +50,41 @@ header .navbar a {
 header .navbar a:hover {
     color: #d65108;
 }
+.category{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 33px;
+}
+.category .dishes{
+    gap: 7px;
+    margin-top: 10px;
+}
+.dishes input{
+    width: 100px;
+    height: 34px;
+    background-color:rgb(29, 156, 206);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+}
+.dishes input:hover{
+    background-color: rgb(226, 214, 214);
+    color: black;
+}
+.category button{
+    position: relative;
+    margin-top: 34px;
+    background-color: transparent;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+}
 
 /*  */
 .btn{
